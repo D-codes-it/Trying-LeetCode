@@ -2,12 +2,12 @@ class Solution(object):
     def reverseString(self, s):
         
         s = ["h","e","l","l","o"]
-        left = s[i]
-        right = s[i] - 1
+        left = 0
+        right = len(s) - 1
 
-        while (left < right)
-        left, right = right, left
-        else stop
+        while (left < right):
+            s[left], s[right] = s[right], s[left]
+        else :quit
 
-        return s;
+        return s
         
